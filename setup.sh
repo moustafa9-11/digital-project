@@ -25,7 +25,7 @@ sudo apt install -y openjdk-17-jdk
 sudo apt install -y ruby-full      # Required for zsteg
 sudo gem install zsteg             # Powerful PNG/BMP stego detection
 
-# Check for stegcracker (it's often replaced by stegseek on newer Kali)
+# Check for stegcracker
 sudo apt install -y stegcracker 2>/dev/null || echo "[!] stegcracker not in repo, using stegseek as alternative"
 
 # Unzip rockyou wordlist if on Kali
