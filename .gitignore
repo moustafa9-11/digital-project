@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Project specific ignores
+datasets/images/clean_*
+datasets/images/stego_*
+datasets/audio/clean_*
+datasets/audio/stego_*
+datasets/videos/clean_*
+datasets/videos/stego_*
+tmp_dataset/
+reports/*.txt
+extracted/
+tools/StegExpose/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

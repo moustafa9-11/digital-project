@@ -1,0 +1,8 @@
+Pillow
+opencv-python
+numpy
+scipy
+matplotlib
+pandas
+tqdm
+colorama
